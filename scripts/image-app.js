@@ -61,7 +61,7 @@
       throw new WorkerException('Worker error.');
     };
 
-    /*length = imageData.data.length / 4;
+    length = imageData.data.length / 4;
     for (i = j = 0, ref = length; 0 <= ref ? j <= ref : j >= ref; i = 0 <= ref ? ++j : --j) {
       r = imageData.data[i * 4 + 0];
       g = imageData.data[i * 4 + 1];
@@ -73,7 +73,7 @@
       imageData.data[i * 4 + 2] = pixel[2];
       imageData.data[i * 4 + 3] = pixel[3];
     }
-    toggleButtonsAbledness();*/
+    toggleButtonsAbledness();
     return ctx.putImageData(imageData, 0, 0);
   };
 
