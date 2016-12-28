@@ -72,8 +72,8 @@
       imageData.data[i * 4 + 1] = pixel[1];
       imageData.data[i * 4 + 2] = pixel[2];
       imageData.data[i * 4 + 3] = pixel[3];
-    }*/
-    toggleButtonsAbledness();
+    }
+    toggleButtonsAbledness();*/
     return ctx.putImageData(imageData, 0, 0);
   };
 
